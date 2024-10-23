@@ -1,0 +1,30 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A command line role playing game, that uses object oriented programming. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "jest-another-RPG"
+  },
+  "keywords": [
+    "rpg"
+  ],
+  "author": "Shane Bramble-Wade",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.25.9",
+    "@babel/preset-env": "^7.25.9",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
