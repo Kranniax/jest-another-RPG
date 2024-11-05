@@ -1,5 +1,5 @@
 import { Enemy } from "../lib/Enemy";
-import { Potion } from "../lib/Potion";
+// import { Potion } from "../lib/Potion";
 // Then jest.mock() mocks/replaces the constructor's implementation with our faked data.
 jest.mock("../lib/Potion.js", () => {
   return {
